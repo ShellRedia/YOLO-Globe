@@ -33,6 +33,8 @@ http://images.cocodataset.org/zips/val2017.zip
 
 YOLO系列模型训练依赖于 __ultralytics__ 库，首先下载YOLO26的权重到 __checkpoints__ 文件夹中。默认使用的模型权重是 __yolo26m.pt__。
 
+其他权重在这里可以下载：https://docs.ultralytics.com/zh/models/yolo26/
+
 配置好数据和权重后，使用 __train.py__ 即可训练。
 
 这个脚本同样还包含了基于 __peft__ 库的微调实现，具体是利用LoRA对于YOLO26中的卷积层进行旁路微调。
