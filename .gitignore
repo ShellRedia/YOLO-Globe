@@ -1,0 +1,6 @@
+\synthetic_manual_split
+\runs
+\.vscode
+\checkpoints\*
+\datasets
+# !datasets\**\
