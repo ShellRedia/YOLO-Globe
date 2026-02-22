@@ -10,16 +10,16 @@
 
 进入场景运行后，按 __P__ 键即可开始自动截图，生成的图像结果如图所示。
 
-![synthetic_samples](figures\ue_synthetic_samples.png)
+![synthetic_samples](.\figures\ue_synthetic_samples.png)
 
 生成的数据包含了图像和标注，标注需要通过python脚本转换为 __ultralytics__ 库能够处理的格式。处理的脚本为：__make_yolo_dataset.py__
 
 真实和虚拟的数据集的放置路径如下，这一点从 __ultralytics__ 的官方文档中也能找到。
-![dataset_placement](figures\dataset_placement.png)
+![dataset_placement](.\figures\dataset_placement.png)
 
 图片和标注的样本示例如图所示：
-![dataset_image](figures\dataset_image.png)
-![dataset_label](figures\dataset_label.png)
+![dataset_image](.\figures\dataset_image.png)
+![dataset_label](.\figures\dataset_label.png)
 
 数据增强的背景使用了 __COCO2017__ 数据集：
 

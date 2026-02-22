@@ -16,11 +16,11 @@ After entering the scene and running it, press the __P__ key to start automatic 
 The generated data includes images and annotations. The annotations need to be converted via a Python script into a format compatible with the __ultralytics__ library. The processing script is: __make_yolo_dataset.py__
 
 The directory structure for real and synthetic datasets is as follows, which can also be found in the official __ultralytics__ documentation.
-![dataset_placement](figures\dataset_placement.png)
+![dataset_placement](.\figures\dataset_placement.png)
 
 Sample images and annotations are shown below:
-![dataset_image](figures\dataset_image.png)
-![dataset_label](figures\dataset_label.png)
+![dataset_image](.\figures\dataset_image.png)
+![dataset_label](.\figures\dataset_label.png)
 
 The background for data augmentation uses the __COCO2017__ dataset.
 
